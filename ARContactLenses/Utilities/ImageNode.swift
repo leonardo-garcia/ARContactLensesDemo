@@ -8,8 +8,8 @@
 import SceneKit
 
 final class ImageNode: SCNNode {
-    init(width: CGFloat = 0.002,
-         height: CGFloat = 0.002,
+    init(width: CGFloat,
+         height: CGFloat,
          image: UIImage) {
 
         super.init()
